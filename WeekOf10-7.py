@@ -14,7 +14,7 @@ print("I also said: '%s'." % y)
 hilarious = True
 jokeEvaluation = "Isn't that joke so funny?! %r"
 
-Print(jokeEvaluation % hilarious)
+print(jokeEvaluation % hilarious)
 
 w = "This is the left side of..."
 e = "a string with a right side."
