@@ -65,12 +65,17 @@ Even 4 lines if we want, or 5, or 6.
 print("Here are the months: %r" % months)
 print("Here are the months: %s" % months)
 
-# what does the following code do:
+# what does the following code block do:
 #   while True:
 #       for i in ["/", "-", "|", "\\". "|"]:
 #           print("%s\r" % i, end='')
+
 #   can you use ''' instead of """?
 
+age = input("How old are you?")
+height = input("How tall are you?")
+
+print("So, you are %r old and %r tall.") % (age, height))
 
 
 
